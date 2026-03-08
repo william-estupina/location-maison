@@ -1,5 +1,5 @@
 import { Link } from 'react-router';
-import { ArrowRight, MapPin, Waves, TreePine, Star, Quote, Heart, Home as HomeIcon } from 'lucide-react';
+import { ArrowRight, MapPin, Waves, TreePine, Star, Quote, Home as HomeIcon } from 'lucide-react';
 import { properties } from '../data/properties';
 import { reviews } from '../data/reviews';
 import PropertyCard from '../components/PropertyCard';
@@ -113,8 +113,12 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn>
             <div className="max-w-3xl mx-auto text-center">
-              <div className="inline-flex items-center justify-center w-14 h-14 rounded-full bg-terracotta/10 text-terracotta mb-6">
-                <Heart size={28} />
+              <div className="mb-6">
+                <img
+                  src="/images/profil.jpg"
+                  alt="William et Mélaine"
+                  className="w-48 h-48 rounded-full object-cover object-[0%_center] mx-auto ring-4 ring-terracotta/20 shadow-md"
+                />
               </div>
               <h2 className="text-3xl font-bold text-charcoal">Qui sommes-nous ?</h2>
               <p className="mt-6 text-warm-gray leading-relaxed">
