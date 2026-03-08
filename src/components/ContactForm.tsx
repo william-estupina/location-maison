@@ -10,7 +10,7 @@ export default function ContactForm() {
     e.preventDefault();
     const subject = encodeURIComponent(`Contact depuis le site - ${name}`);
     const body = encodeURIComponent(`Nom: ${name}\nEmail: ${email}\n\n${message}`);
-    window.location.href = `mailto:contact@location-lestiac.fr?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:william.estupina@gmail.com?subject=${subject}&body=${body}`;
   };
 
   return (

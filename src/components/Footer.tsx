@@ -38,14 +38,14 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-2">
                 <Mail size={16} className="shrink-0" />
-                <a href="mailto:contact@location-lestiac.fr" className="hover:text-cream transition-colors">
-                  contact@location-lestiac.fr
+                <a href="mailto:william.estupina@gmail.com" className="hover:text-cream transition-colors">
+                  william.estupina@gmail.com
                 </a>
               </li>
               <li className="flex items-center gap-2">
                 <Phone size={16} className="shrink-0" />
-                <a href="tel:+33600000000" className="hover:text-cream transition-colors">
-                  06 00 00 00 00
+                <a href="tel:+33613326604" className="hover:text-cream transition-colors">
+                  06 13 32 66 04
                 </a>
               </li>
             </ul>

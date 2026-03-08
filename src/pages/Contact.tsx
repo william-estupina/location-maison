@@ -46,8 +46,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="text-sm font-medium text-charcoal">Email</p>
-                      <a href="mailto:contact@location-lestiac.fr" className="text-sm text-terracotta hover:text-terracotta-dark transition-colors">
-                        contact@location-lestiac.fr
+                      <a href="mailto:william.estupina@gmail.com" className="text-sm text-terracotta hover:text-terracotta-dark transition-colors">
+                        william.estupina@gmail.com
                       </a>
                     </div>
                   </li>
@@ -57,8 +57,8 @@ export default function Contact() {
                     </div>
                     <div>
                       <p className="text-sm font-medium text-charcoal">Téléphone</p>
-                      <a href="tel:+33600000000" className="text-sm text-terracotta hover:text-terracotta-dark transition-colors">
-                        06 00 00 00 00
+                      <a href="tel:+33613326604" className="text-sm text-terracotta hover:text-terracotta-dark transition-colors">
+                        06 13 32 66 04
                       </a>
                     </div>
                   </li>
