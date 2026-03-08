@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --color-cream: #FDFBF7;
+  --color-cream-dark: #F5F0E8;
+  --color-terracotta: #C4704B;
+  --color-terracotta-dark: #A85A3A;
+  --color-olive: #6B7F3B;
+  --color-olive-dark: #566832;
+  --color-charcoal: #2D2A26;
+  --color-warm-gray: #8A8279;
+  --color-warm-gray-light: #B8B0A6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  color: var(--color-charcoal);
+  background-color: var(--color-cream);
+  margin: 0;
+}

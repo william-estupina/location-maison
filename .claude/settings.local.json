@@ -1,0 +1,40 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:www.airbnb.fr)",
+      "Bash(npm create vite@latest . -- --template react-ts)",
+      "Read(//c/Users/lemar/projects/**)",
+      "Bash(npm create vite@latest location-maison-temp -- --template react-ts)",
+      "Bash(cp -r /c/Users/lemar/projects/location-maison-temp/* /c/Users/lemar/projects/location-maison/)",
+      "Bash(cp /c/Users/lemar/projects/location-maison-temp/.gitignore /c/Users/lemar/projects/location-maison/)",
+      "Bash(rm -rf /c/Users/lemar/projects/location-maison-temp)",
+      "Bash(npm install)",
+      "Bash(npm install tailwindcss @tailwindcss/vite react-router lucide-react)",
+      "Bash(npx tsc --noEmit)",
+      "Bash(npm run build)",
+      "Bash(curl -sL -o photo1.jpeg 'https://a0.muscache.com/im/pictures/miso/Hosting-827463874858032914/original/4addfe99-4c5f-42fd-8301-30960148140f.jpeg?im_w=1200')",
+      "Bash(curl -sL -o photo2.jpeg 'https://a0.muscache.com/im/pictures/miso/Hosting-827463874858032914/original/98ecf000-0166-4ce6-83f6-f8fde5140b7b.jpeg?im_w=1200')",
+      "Bash(curl -sL -o photo3.jpeg 'https://a0.muscache.com/im/pictures/miso/Hosting-827463874858032914/original/f92d1440-4941-4466-86f4-35a81f595166.jpeg?im_w=1200')",
+      "Bash(curl -sL -o photo4.jpeg 'https://a0.muscache.com/im/pictures/miso/Hosting-827463874858032914/original/5f2dde55-ea93-4bb0-8a45-d20820f54971.jpeg?im_w=1200')",
+      "Bash(curl -sL -o photo5.jpeg 'https://a0.muscache.com/im/pictures/miso/Hosting-827463874858032914/original/094383d1-fd73-4690-adc0-cdfdd8debe61.jpeg?im_w=1200')",
+      "Bash(curl -sL -o photo6.jpeg 'https://a0.muscache.com/im/pictures/miso/Hosting-827463874858032914/original/b8774d62-187b-4828-a69d-405e58bf0833.jpeg?im_w=1200')",
+      "Bash(curl -sL -o photo7.jpeg 'https://a0.muscache.com/im/pictures/miso/Hosting-827463874858032914/original/db6c1027-6d42-41b0-9c18-1faed4899848.jpeg?im_w=1200')",
+      "Bash(curl -sL -o photo8.jpeg 'https://a0.muscache.com/im/pictures/miso/Hosting-827463874858032914/original/0ac73695-4565-4311-ae27-7a9711417d30.jpeg?im_w=1200')",
+      "Bash(curl -sL -o photo1.png 'https://a0.muscache.com/im/pictures/miso/Hosting-916431840455436518/original/4b2d6a4d-a6cd-4f16-ad1e-e79950169044.png?im_w=1200')",
+      "Bash(curl -sL -o photo2.jpeg 'https://a0.muscache.com/im/pictures/hosting/Hosting-916431840455436518/original/e493b2dc-2a7f-479c-9665-c0f330ded1e5.jpeg?im_w=1200')",
+      "Bash(curl -sL -o photo3.jpeg 'https://a0.muscache.com/im/pictures/hosting/Hosting-916431840455436518/original/3e7f8f10-c4e8-4e21-9c4b-752606707b75.jpeg?im_w=1200')",
+      "Bash(curl -sL -o photo4.jpeg 'https://a0.muscache.com/im/pictures/hosting/Hosting-916431840455436518/original/904aa8b0-aa70-4fe3-85fe-722e08372d68.jpeg?im_w=1200')",
+      "Bash(curl -sL -o photo5.jpg 'https://a0.muscache.com/im/pictures/8fa0799f-d1a0-48d0-9243-93fba8c2d2b8.jpg?im_w=1200')",
+      "Bash(curl -sL -o photo6.jpeg 'https://a0.muscache.com/im/pictures/hosting/Hosting-916431840455436518/original/f734d1f7-5432-4ebf-8370-154b38a62e20.jpeg?im_w=1200')",
+      "Bash(curl -sL -o photo7.jpeg 'https://a0.muscache.com/im/pictures/hosting/Hosting-916431840455436518/original/f1f38c59-4e44-4ac3-8595-d6947a3ac93c.jpeg?im_w=1200')",
+      "Bash(curl -sL -o photo8.jpeg 'https://a0.muscache.com/im/pictures/hosting/Hosting-916431840455436518/original/846c7f0f-162a-46ad-a7b3-46cd7afec3a1.jpeg?im_w=1200')",
+      "Bash(curl -sL -o photo1.jpeg 'https://a0.muscache.com/im/pictures/hosting/Hosting-1272980632776111973/original/bfd3c4f5-d3e1-4712-a5ed-9d6c1b2a90ef.jpeg?im_w=1200')",
+      "Bash(curl -sL -o photo2.jpeg 'https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTE2NDMxODQwNDU1NDM2NTE4/original/f73e0b9d-2a02-4232-92a6-235fe262d886.jpeg?im_w=1200')",
+      "Bash(curl -sL -o photo3.jpeg 'https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTE2NDMxODQwNDU1NDM2NTE4/original/e24302c0-f831-4f99-9486-8c1f2b3974f9.jpeg?im_w=1200')",
+      "Bash(curl -sL -o photo4.jpeg 'https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTE2NDMxODQwNDU1NDM2NTE4/original/5d6e64a8-16aa-425b-a3ea-a95785a3ab02.jpeg?im_w=1200')",
+      "Bash(curl -sL -o photo5.jpeg 'https://a0.muscache.com/im/pictures/hosting/Hosting-U3RheVN1cHBseUxpc3Rpbmc6OTE2NDMxODQwNDU1NDM2NTE4/original/2e263c76-40a5-490f-9028-5858f26256a5.jpeg?im_w=1200')",
+      "Bash(curl -sL -o photo6.png 'https://a0.muscache.com/im/pictures/miso/Hosting-916431840455436518/original/4b2d6a4d-a6cd-4f16-ad1e-e79950169044.png?im_w=1200')",
+      "Bash(curl -sL -o /dev/null -w \"%{http_code} %{size_download}\" 'https://a0.muscache.com/im/pictures/miso/Hosting-827463874858032914/original/4addfe99-4c5f-42fd-8301-30960148140f.jpeg')"
+    ]
+  }
+}
