@@ -3,7 +3,7 @@ import ContactForm from '../components/ContactForm';
 import FadeIn from '../components/FadeIn';
 
 export default function Contact() {
-  document.title = 'Contact — Location à Lestiac sur Garonne';
+  document.title = 'Contact — Locations à Lestiac sur Garonne';
 
   return (
     <section className="py-20">
@@ -12,7 +12,7 @@ export default function Contact() {
           <div className="text-center mb-12">
             <h1 className="text-3xl sm:text-4xl font-bold text-charcoal">Nous contacter</h1>
             <p className="mt-3 text-warm-gray max-w-xl mx-auto">
-              Une question sur nos logements ? Envoyez-nous un message et nous vous répondrons dans les plus brefs délais.
+              Une question sur nos locations ? Envoyez-nous un message et nous vous répondrons dans les plus brefs délais.
             </p>
           </div>
         </FadeIn>

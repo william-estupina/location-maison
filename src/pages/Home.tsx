@@ -6,7 +6,7 @@ import PropertyCard from '../components/PropertyCard';
 import FadeIn from '../components/FadeIn';
 
 export default function Home() {
-  document.title = 'Location à Lestiac sur Garonne — Séjours au cœur des vignobles bordelais';
+  document.title = 'Locations à Lestiac sur Garonne — Séjours au cœur des vignobles bordelais';
 
   return (
     <>
@@ -20,15 +20,15 @@ export default function Home() {
                 Votre séjour au cœur des vignobles bordelais
               </h1>
               <p className="mt-5 text-lg text-white/80 leading-relaxed">
-                Découvrez nos 3 logements à Lestiac-sur-Garonne, entre Garonne et vignes,
+                Découvrez nos 3 locations à Lestiac-sur-Garonne, entre Garonne et vignes,
                 à seulement 25 km de Bordeaux. Piscine, jardin et tranquillité.
               </p>
               <div className="mt-8 flex flex-wrap gap-4">
                 <Link
-                  to="/logements"
+                  to="/locations"
                   className="inline-flex items-center gap-2 bg-terracotta hover:bg-terracotta-dark text-white font-medium px-6 py-3 rounded-lg transition-colors"
                 >
-                  Découvrir nos logements
+                  Découvrir nos locations
                   <ArrowRight size={18} />
                 </Link>
                 <Link
@@ -198,7 +198,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <FadeIn>
             <div className="text-center mb-12">
-              <h2 className="text-3xl font-bold text-charcoal">Nos logements</h2>
+              <h2 className="text-3xl font-bold text-charcoal">Nos locations</h2>
               <p className="mt-3 text-warm-gray max-w-2xl mx-auto">
                 3 formules pour répondre à toutes vos envies : en solo, en couple, en famille ou entre amis.
               </p>
@@ -211,10 +211,10 @@ export default function Home() {
           </div>
           <FadeIn className="text-center mt-10">
             <Link
-              to="/logements"
+              to="/locations"
               className="inline-flex items-center gap-2 text-terracotta hover:text-terracotta-dark font-medium transition-colors"
             >
-              Voir tous nos logements
+              Voir toutes nos locations
               <ArrowRight size={18} />
             </Link>
           </FadeIn>

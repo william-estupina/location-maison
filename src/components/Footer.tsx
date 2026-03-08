@@ -8,9 +8,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* About */}
           <div>
-            <h3 className="text-cream font-semibold text-lg mb-3">Location à Lestiac sur Garonne</h3>
+            <h3 className="text-cream font-semibold text-lg mb-3">Locations à Lestiac sur Garonne</h3>
             <p className="text-sm text-warm-gray-light leading-relaxed">
-              Découvrez nos logements au cœur des vignobles bordelais, à seulement 25 km de Bordeaux.
+              Découvrez nos locations au cœur des vignobles bordelais, à seulement 25 km de Bordeaux.
               Piscine, jardin et calme de la campagne vous attendent.
             </p>
           </div>
@@ -20,10 +20,10 @@ export default function Footer() {
             <h3 className="text-cream font-semibold text-lg mb-3">Liens rapides</h3>
             <ul className="space-y-2 text-sm">
               <li><Link to="/" className="text-warm-gray-light hover:text-cream transition-colors">Accueil</Link></li>
-              <li><Link to="/logements" className="text-warm-gray-light hover:text-cream transition-colors">Nos logements</Link></li>
-              <li><Link to="/logements/chambre-privee" className="text-warm-gray-light hover:text-cream transition-colors">Chambre privée</Link></li>
-              <li><Link to="/logements/dependance" className="text-warm-gray-light hover:text-cream transition-colors">Dépendance</Link></li>
-              <li><Link to="/logements/maison-entiere" className="text-warm-gray-light hover:text-cream transition-colors">Maison entière</Link></li>
+              <li><Link to="/locations" className="text-warm-gray-light hover:text-cream transition-colors">Nos locations</Link></li>
+              <li><Link to="/locations/chambre-privee" className="text-warm-gray-light hover:text-cream transition-colors">Chambre privée</Link></li>
+              <li><Link to="/locations/dependance" className="text-warm-gray-light hover:text-cream transition-colors">Dépendance</Link></li>
+              <li><Link to="/locations/maison-entiere" className="text-warm-gray-light hover:text-cream transition-colors">Maison entière</Link></li>
               <li><Link to="/contact" className="text-warm-gray-light hover:text-cream transition-colors">Contact</Link></li>
             </ul>
           </div>
@@ -53,7 +53,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-10 pt-6 border-t border-warm-gray/30 text-center text-xs text-warm-gray">
-          &copy; {new Date().getFullYear()} Location à Lestiac sur Garonne. Tous droits réservés.
+          &copy; {new Date().getFullYear()} Locations à Lestiac sur Garonne. Tous droits réservés.
         </div>
       </div>
     </footer>

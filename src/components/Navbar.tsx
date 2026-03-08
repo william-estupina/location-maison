@@ -4,7 +4,7 @@ import { Menu, X } from 'lucide-react';
 
 const links = [
   { to: '/', label: 'Accueil' },
-  { to: '/logements', label: 'Nos logements' },
+  { to: '/locations', label: 'Nos locations' },
   { to: '/contact', label: 'Contact' },
 ];
 
@@ -16,7 +16,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="text-lg font-semibold text-charcoal hover:text-terracotta transition-colors">
-            Location à Lestiac sur Garonne
+            Locations à Lestiac sur Garonne
           </Link>
 
           {/* Desktop */}

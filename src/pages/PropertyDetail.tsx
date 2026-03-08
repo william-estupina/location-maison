@@ -10,21 +10,21 @@ export default function PropertyDetail() {
   const property = properties.find((p) => p.slug === slug);
 
   if (!property) {
-    return <Navigate to="/logements" replace />;
+    return <Navigate to="/locations" replace />;
   }
 
-  document.title = `${property.title} — Location à Lestiac sur Garonne`;
+  document.title = `${property.title} — Locations à Lestiac sur Garonne`;
 
   return (
     <section className="py-10">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Breadcrumb */}
         <Link
-          to="/logements"
+          to="/locations"
           className="inline-flex items-center gap-1 text-sm text-warm-gray hover:text-terracotta transition-colors mb-6"
         >
           <ArrowLeft size={16} />
-          Retour aux logements
+          Retour aux locations
         </Link>
 
         {/* Gallery */}

@@ -7,7 +7,7 @@ export default function PropertyCard({ property }: { property: Property }) {
   return (
     <FadeIn>
       <Link
-        to={`/logements/${property.slug}`}
+        to={`/locations/${property.slug}`}
         className="group block bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-xl transition-shadow duration-300"
       >
         <div className="aspect-[4/3] overflow-hidden">

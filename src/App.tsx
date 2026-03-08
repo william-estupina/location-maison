@@ -11,8 +11,8 @@ export default function App() {
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<Home />} />
-          <Route path="logements" element={<Properties />} />
-          <Route path="logements/:slug" element={<PropertyDetail />} />
+          <Route path="locations" element={<Properties />} />
+          <Route path="locations/:slug" element={<PropertyDetail />} />
           <Route path="contact" element={<Contact />} />
         </Route>
       </Routes>
