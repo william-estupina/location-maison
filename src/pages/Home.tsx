@@ -1,6 +1,7 @@
 import { Link } from 'react-router';
-import { ArrowRight, MapPin, Waves, TreePine } from 'lucide-react';
+import { ArrowRight, MapPin, Waves, TreePine, Star, Quote } from 'lucide-react';
 import { properties } from '../data/properties';
+import { reviews } from '../data/reviews';
 import PropertyCard from '../components/PropertyCard';
 import FadeIn from '../components/FadeIn';
 
@@ -81,6 +82,45 @@ export default function Home() {
               </div>
             </div>
           </FadeIn>
+        </div>
+      </section>
+
+      {/* Testimonials */}
+      <section className="py-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <FadeIn>
+            <div className="text-center mb-12">
+              <h2 className="text-3xl font-bold text-charcoal">Ils nous ont laissé un commentaire</h2>
+              <p className="mt-3 text-warm-gray max-w-2xl mx-auto">
+                Découvrez les retours de nos voyageurs qui ont séjourné chez nous.
+              </p>
+            </div>
+          </FadeIn>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            {reviews.slice(0, 6).map((review, index) => (
+              <FadeIn key={index}>
+                <div className="bg-white rounded-xl shadow-sm border border-warm-gray/10 p-6 h-full flex flex-col">
+                  <Quote size={24} className="text-terracotta/30 mb-3" />
+                  <p className="text-charcoal/80 text-sm leading-relaxed flex-1">
+                    {review.text}
+                  </p>
+                  <div className="mt-4 pt-4 border-t border-warm-gray/10">
+                    <div className="flex items-center justify-between">
+                      <div>
+                        <p className="font-semibold text-charcoal">{review.author}</p>
+                        <p className="text-xs text-warm-gray">{review.propertyType} — {review.date}</p>
+                      </div>
+                      <div className="flex gap-0.5">
+                        {Array.from({ length: review.rating }).map((_, i) => (
+                          <Star key={i} size={14} className="fill-terracotta text-terracotta" />
+                        ))}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </FadeIn>
+            ))}
+          </div>
         </div>
       </section>
 

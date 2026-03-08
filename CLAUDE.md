@@ -43,6 +43,12 @@ App (BrowserRouter)
 
 **Animation :** Le composant `FadeIn` utilise IntersectionObserver pour des animations de fondu au défilement.
 
+## Annonces Airbnb (sources de contenu)
+
+- **Chambre privée :** https://www.airbnb.fr/rooms/827463874858032914
+- **Dépendance :** https://www.airbnb.fr/rooms/916431840455436518
+- **Maison entière :** https://www.airbnb.fr/rooms/1272980632776111973
+
 ## TypeScript
 
 Mode strict activé avec `noUnusedLocals`, `noUnusedParameters` et `noFallthroughCasesInSwitch`. ESLint utilise le format de configuration flat (`eslint.config.js`).
