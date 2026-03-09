@@ -4,16 +4,21 @@ import { properties } from '../data/properties';
 import PhotoGallery from '../components/PhotoGallery';
 import AmenityList from '../components/AmenityList';
 import FadeIn from '../components/FadeIn';
+import usePageMeta from '../hooks/usePageMeta';
 
 export default function PropertyDetail() {
   const { slug } = useParams<{ slug: string }>();
   const property = properties.find((p) => p.slug === slug);
 
+  usePageMeta({
+    title: property ? `${property.title} — Locations à Lestiac sur Garonne` : 'Location introuvable',
+    description: property?.description ?? '',
+    ogImage: property?.photos[0],
+  });
+
   if (!property) {
     return <Navigate to="/locations" replace />;
   }
-
-  document.title = `${property.title} — Locations à Lestiac sur Garonne`;
 
   return (
     <section className="py-10">

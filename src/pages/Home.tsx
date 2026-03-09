@@ -4,9 +4,13 @@ import { properties } from '../data/properties';
 import { reviews } from '../data/reviews';
 import PropertyCard from '../components/PropertyCard';
 import FadeIn from '../components/FadeIn';
+import usePageMeta from '../hooks/usePageMeta';
 
 export default function Home() {
-  document.title = 'Locations à Lestiac sur Garonne — Séjours au cœur des vignobles bordelais';
+  usePageMeta({
+    title: 'Locations à Lestiac sur Garonne — Séjours au cœur des vignobles bordelais',
+    description: 'Découvrez nos 3 logements à Lestiac-sur-Garonne, près de Bordeaux : chambre privée, gîte indépendant et maison entière avec piscine. Vignobles, Garonne et tranquillité.',
+  });
 
   return (
     <>

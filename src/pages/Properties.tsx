@@ -1,9 +1,13 @@
 import { properties } from '../data/properties';
 import PropertyCard from '../components/PropertyCard';
 import FadeIn from '../components/FadeIn';
+import usePageMeta from '../hooks/usePageMeta';
 
 export default function Properties() {
-  document.title = 'Nos locations — Lestiac sur Garonne';
+  usePageMeta({
+    title: 'Nos locations — Lestiac sur Garonne',
+    description: 'Chambre privée, gîte indépendant ou maison entière avec piscine à Lestiac-sur-Garonne, à 25 km de Bordeaux. Trouvez la location idéale pour votre séjour.',
+  });
 
   return (
     <section className="py-20">

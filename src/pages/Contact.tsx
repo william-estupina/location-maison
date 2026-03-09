@@ -1,9 +1,13 @@
 import { MapPin, Mail, Phone } from 'lucide-react';
 import ContactForm from '../components/ContactForm';
 import FadeIn from '../components/FadeIn';
+import usePageMeta from '../hooks/usePageMeta';
 
 export default function Contact() {
-  document.title = 'Contact — Locations à Lestiac sur Garonne';
+  usePageMeta({
+    title: 'Contact — Locations à Lestiac sur Garonne',
+    description: 'Contactez-nous pour toute question sur nos locations à Lestiac-sur-Garonne. Réponse rapide garantie.',
+  });
 
   return (
     <section className="py-20">

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://location-lestiac.netlify.app/sitemap.xml
